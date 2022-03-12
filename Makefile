@@ -2,7 +2,7 @@ compiler = gcc
 include = include/*.h
 sources = *.c
 libs = 
-flags = -o
+flags = -ggdb3 -o
 
 all:
 	$(compiler) $(sources) $(flags) a.out
